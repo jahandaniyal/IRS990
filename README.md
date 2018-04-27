@@ -23,4 +23,6 @@ To run irs.py successfully you need to pass 4 arguments in the following order:
   4. An integer representing the number of partitions to be used during Map Reduce.
 The output is saved to the location provided as argument to the irs.py script.
 
-  
+Please find the results of **Year Over Year Total Revenue Growth Nationally and by State** in the data/output directory.
+
+The Microsoft Powerpoint Presentation "Analyzing IRS990 Dataset.pptx" discusses my approach and the results of my analysis.
