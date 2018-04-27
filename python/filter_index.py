@@ -12,9 +12,4 @@ def filter_index_csv(input_file, output_file):
             csv_writer.writerow([item[8]+'_public.xml', item[2]])
     index_csv.close()
 
-def city_to_state(input_file):
-
-    pass
-    return 0
-
 #filter_index_csv('index_2012.csv', 'test_file.csv')
