@@ -2,7 +2,7 @@
 Analyzing publicly available IRS990 dataset using Apache Spark and Amazon Web Services.
 
 **STRUCTURE:**
-1. The directory **Data** contains all the input files : index_<year>.csv
+1. The directory **Data** contains the original input files "index_????.csv" and the **processed index files** "filer_data_????.csv"
 2. Output of the Map Reduce tasks are stored inside **Data** under the directory **Output**
 3. All scripts are contained inside the directory **Python**
   
@@ -18,7 +18,7 @@ Please use the requirements.txt file to install all dependencies.
 Create a bucket on Amazon S3 and transfer the directories Data and Python.
 To run irs.py successfully you need to pass 4 arguments in the following order:
   1. Path of irs.py on your AWS S3 Bucket
-  2. Path of the processed index files inside data/input directory
+  2. Path of the **processed index files** inside data/input directory
   3. Location of the output file
   4. An integer representing the number of partitions to be used during Map Reduce.
 The output is saved to the location provided as argument to the irs.py script.
